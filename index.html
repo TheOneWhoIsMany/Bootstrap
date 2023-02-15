@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+<!--     nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="data:image/png;base64,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"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--     end nav -->
+    
+<!--     main section jumbotron -->
+    <div class="jumbotron" id="jumbo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSedYTkid4y37dg9lkcOcjTzFjYs10qPIkZrQ&usqp=CAU" class="img-responsive" alt="Dummy Kevin go bur">
+      <!--       add image -->
+<!--   <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead"> -->
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+<!--     end main section -->
+    
+<!--     row of cards section -->
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+  <img src="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F002%2F325%2F922%2Fa19.jpeg" class="card-img-top" alt="Breadbear">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">Yes something about this isn't normal.</p>
+    <a href="https://express.adobe.com/page/65Eys/" class="btn btn-primary">Yes</a>
+  </div>  
+</div>
+       <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ix5rZGyvJ56yU9klAjYIRkZQWQOOLeAWYw&usqp=CAU" class="card-img-top" alt="Glitchtrap">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">It's just a glitch</p>
+    <a href="https://steamcommunity.com/app/732690/discussions/0/1626286205688229238/?l=hungarian&ctp=1" class="btn btn-primary">Yes</a>
+  </div>
+    </div><div class="card" style="width: 18rem;">
+  <img src="https://static.wikia.nocookie.net/fd97e4b4-a768-4166-8f6f-5c63c8fd9fce/scale-to-width/755" class="card-img-top" alt="Sonic Says">
+  <div class="card-body">
+    <h5 class="card-title">Yes</h5>
+    <p class="card-text">Great Job Sonic</p>
+    <a href="https://en.wikipedia.org/wiki/Cheese" class="btn btn-primary">Yes</a>
+  </div>
+</div>
+  
+<center><!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://preview.redd.it/withered-bonnie-toilet-take-fnaf-cringe-to-the-next-level-v0-37jii0aq56p81.jpg?auto=webp&s=bfcd87431161ad083aa4611c1b9fa831249a3f33" style="width:50%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://i.imgflip.com/5dean2.jpg" style="width:50%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://external-preview.redd.it/uxLtMdwvhq8bHeC98CLbwJknrmqSYo7STjoW4jJt7kw.png?format=pjpg&auto=webp&s=728a33521e8a5dc8ee31d515aa9dbd8bfc396363" style="width:50%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div></center>
+      <button type="button" class="button1">Yes</button>
+      <button type="button" class="button2">Yes2</button>
+      <button type="Yes But Fancy" class="button3">Yes But Fancy</button>
+<!--     end row of cards section -->
+    
+    <h1>Hello, world!</h1>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  </body>
+</html>
